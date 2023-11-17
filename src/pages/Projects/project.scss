@@ -1,0 +1,233 @@
+.project-container {
+
+section#hero {
+  background-color: #0093fb;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+section#hero #project-logo {
+  width: 39em;
+  padding-top: 2em;
+  padding-bottom: 6em;
+}
+
+section#hero #project-logo img {
+  margin-left: 10px;
+  width: 25%;
+  height: 25%;
+}
+
+section#hero #project-details {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+section#hero #project-details #project-details-image {
+  width: 30%;
+  height: 30%;
+}
+
+section#hero #project-details #project-details-image img {
+  min-width: 20em;
+}
+
+section#hero #project-details #project-details-image-caption {
+  margin-top: 3em;
+  margin-left: 3em;
+  
+  font-weight: bold;
+  color: #ffffff;
+}
+
+section#hero #project-details #project-details-image-caption h1 {
+  font-size: 3.5em;
+}
+
+.hero-container {
+  margin-bottom: 3.5em !important;
+}
+
+section#aboutus {
+  background-color: #3b3939;
+  color: #fff;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-left: 0.4em;
+}
+
+section#aboutus h1 {
+  font-size: 2.6em;
+  letter-spacing: 2px;
+}
+
+section#aboutus article {
+  padding: 1.4em;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+section#services {
+  padding-top: 3em;
+  background-color: #3b3939;
+  padding-bottom: 3em;
+}
+
+section#services h1 {
+  color: #ffffff;
+  text-align: center;
+
+  padding-bottom: 1.5em;
+}
+
+section#services .service {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 1em;
+}
+
+section#services .service .service-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: 2;
+  transition: all 1s;
+  border-radius: 1em;
+}
+
+section#services .service:hover .service-overlay {
+  opacity: 0.9;
+}
+section#services .service .service-overlay p {
+  margin-top: 22%;
+  color: #fff;
+  font-size: 1em;
+  display: none;
+  opacity: 0;
+}
+section#services .service .service-overlay:hover {
+  background-color: #1d1d1d;
+}
+
+section#services .service .service-overlay:hover p {
+  display: block;
+  opacity: 1;
+}
+section#services .service .service-image {
+  height: 7em;
+  width: 7em;
+  margin: 0 auto;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+section#services .service .service-caption {
+  margin-top: 1em;
+  color: #ffffff;
+}
+
+section#services .service .service-overlay .phone-version {
+  display: none;
+}
+
+.carousel-inner {
+  height: 17em;
+}
+section#services .carousel-item {
+  float: none;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3.7em;
+}
+
+footer {
+  background-color: #3b3939;
+  padding-top: 5em;
+}
+
+#copyrightSymbol {
+  height: 1.5%; 
+  width: 1.5%;
+}
+
+@media (max-width: 768px) {
+  section#hero #project-details {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  section#hero #project-logo {
+    width: 100%;
+  }
+
+  section#hero #project-details #project-details-image img {
+    min-width: 4em;
+  }
+
+  section#hero #project-details #project-details-image-caption {
+    margin-top: 1em;
+  }
+  section#hero #project-details #project-details-image-caption h1 {
+    font-size: 1em;
+  }
+  nav .navbar-brand {
+    width: 10em;
+  }
+  section#services .row {
+    gap: 0px;
+  }
+
+  section#services .service .service-overlay:hover .widescreen-version {
+    display: none;
+  }
+
+  section#services .service .service-overlay:hover .phone-version {
+    display: block;
+  }
+
+  section#services .service .service-image {
+    width: 100%;
+    height: 3.8em;
+  }
+}
+
+@media (max-width: 412px) {
+  section#services .service .service-caption {
+    font-size: 0.7em;
+  }
+}
+#contentProject{
+  min-height: calc(100vh - 40px);
+  background-color: #3b3939;
+}
+
+section#socialMedia{
+  border-top: solid white;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  padding-bottom: 5%;
+  color: white;
+}
+
+section#socialMedia h2{
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+}

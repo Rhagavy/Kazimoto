@@ -1,0 +1,165 @@
+.faq-container {
+
+  .accordion .item {
+    border: none;
+  }
+
+  #apply {
+    background-color: #3b3939;
+    color: white;
+  }
+
+  .brandImage {
+    margin-left: 0.6em;
+  }
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #3b3939;
+    position: relative;
+  }
+
+  .container-fluid img{
+    width: 100%;
+    max-height: calc(100vh - 300px);;
+  }
+
+  .textBlock {
+    position: absolute;
+    bottom: -7%;
+    right: 20%;
+    background-color: #B4AFAF;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-right: 10%;
+    opacity: 0.8;    
+  }
+
+  #textContainer{
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  #faqSection{
+    margin-top: 10%;
+
+    .faq {
+      width: 80%;
+    }
+
+    h1 {
+      margin-left: 10%;
+      margin-bottom: 1em;
+    }
+  }
+
+  
+  .questionBlock{
+    width: 70%;
+    margin-top: 5%;
+  }
+  .accordion{
+    margin-left: 10%;
+  }
+
+  .accordion-item{
+    margin-bottom: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    background-color: #3b3939;
+    font-family: 'Gudea', sans-serif;
+    color: white;
+  }
+
+  .accordion-button{
+    background-color: #0093FB;
+    color: white;
+    font-size: 1em;
+    font-family: 'Gudea', sans-serif;;
+  }
+
+  #contactContainer{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #outterBox{
+    border-top: solid white;
+    border-bottom: solid white;
+  }
+  #innerBox{
+    margin-top: 5%;
+    margin-bottom: 7%;
+    
+  }
+
+  #innerBox h1{
+    margin-left: 6em;
+  }
+
+  #innerBox #shift {
+    margin-left: 7em;
+  }
+
+  .contactBtn{
+    margin-top: 2.5%;
+    margin-left: 60%;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-color: #D9D9D9;
+    color: black;
+    font-weight: bold;
+  }
+
+  #contentFAQ{
+    min-height: calc(100vh - 40px);
+  }
+
+  @media (max-width: 768px){
+
+    .textBlock{
+      margin-left: 10%;
+      max-height: 50%;
+      padding-top: 0;
+      max-width: 100%;
+      margin-right: 0;
+    }
+  
+    #textContainer{
+      display: inline;
+      
+    }
+
+    .questionBlock{
+      width: 90%;
+    }
+
+    .accordion-header{
+      font-size: 1.35em;
+    }
+
+    #contactContainer{
+      
+      margin-left: 0%;
+      
+    }
+
+    .contactBtn{
+      margin-left: 16em;
+    }
+
+    #innerBox h1{
+      margin-left: 1.5em;
+    }
+
+    #innerBox #shift {
+      margin-left: 2.5em;
+    }
+  }
+}
